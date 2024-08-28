@@ -1,7 +1,7 @@
 #Libraries
 from flask import Flask, request, jsonify, render_template # type: ignore
 import numpy as np
-from load import joblib # type: ignore
+import joblib # type: ignore
 import os
 from werkzeug.utils import secure_filename # type: ignore
 
